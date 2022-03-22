@@ -1,0 +1,5 @@
+struct procesor {
+  char producator;
+  int frecventa;
+  float pret;
+}p[20];
