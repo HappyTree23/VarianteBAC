@@ -33,6 +33,14 @@ Sub 2
   }
   ```
   d) 
+  ```
 citeste n,x,y
 ok<-0
 cat timp i<=n executa ...
+```
+2) ARMONIA
+
+```
+a[0].dp.anNastere = 2000;
+a[0].venit = 4000;
+```
