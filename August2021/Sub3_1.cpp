@@ -1,0 +1,3 @@
+void cuburi(int n) {
+  
+}
