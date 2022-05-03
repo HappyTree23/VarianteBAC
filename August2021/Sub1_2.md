@@ -8,8 +8,11 @@ Sub 1
 Sub 2
 1) 
   a) **3** 4 6 8 9 15
+  
   b) (10, 3, 3); (10, 2, 2)
+  
   c) 
+  
 #include <iostream>
 using namespace std;
 int main()
