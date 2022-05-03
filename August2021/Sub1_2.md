@@ -13,7 +13,7 @@ Sub 2
   b) (10, 3, 3); (10, 2, 2)
   
   c) 
-  
+  ```
   #include <iostream>
   using namespace std;
   int main()
@@ -31,6 +31,7 @@ Sub 2
         cout << 0;
       return 0;
   }
+  ```
   d) 
 citeste n,x,y
 ok<-0
