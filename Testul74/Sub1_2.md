@@ -42,12 +42,12 @@ citeste n
 _pentru i <- 1,n executa
 |	citeste x
 |	nr <- x%10
-|	_repeta
-|	|	daca x>9 atunci
+|	_daca x>9 atunci
+|	|	_repeta
 |	|	|	nr <- nr*10
 |	|	|	x <- [x/10]
-|	|	|_@
-|	|_pana cand x<=9
+|	|	|_pana cand x<=9
+|	|_@
 |	s <- s + nr
 |_@
 ```
