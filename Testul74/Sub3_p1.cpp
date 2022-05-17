@@ -3,15 +3,15 @@ using namespace std;
 int main()
 {
     int m, i, j, k, ok, s;
-    int a[100][100];
+    int a[101][101];
     cin >> m;
-    for (i=0; i<m; i++)
+    for (i=1; i<=m; i++)
     {
-        for (j=0; j<m; j++)
+        for (j=1; j<=m; j++)
         {
             s = i*i + j*j;
             ok = 1;
-            for (k=2; k*k < s && ok=1; k++)
+            for (k=2; k*k <= s && ok==1; k++)
                 if (s%k == 0)
                     ok = 0;
             if (ok == 1)
@@ -23,10 +23,10 @@ int main()
                     a[i][j] == 0;
         }
     }
-    
-    for (i=0; i<m; i++)
+
+    for (i=1; i<=m; i++)
     {
-        for (j=0; j<m; j++)
+        for (j=1; j<=m; j++)
             cout << a[i][j] << " ";
         cout << endl;
     }
