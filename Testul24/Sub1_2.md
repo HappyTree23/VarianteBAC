@@ -33,7 +33,8 @@ int main(0 {
 citeste n
 +pentru i<-1,n executa
 | p<-1
-| p<-i*(i+1)/2
+| daca i>=2
+|   p<-i*(i+1)/2
 | scrie [p/(i*2)]
 +--@
 ```
