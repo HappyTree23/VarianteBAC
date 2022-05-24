@@ -7,7 +7,7 @@ int main() {
     int i,k;
     int f[10]={0};
     fin.getline(s, 2001);
-    for (i=1; i<=20; i++) {
+    for (i=1; i<=2000; i++) {
         f[s[i] - '0'] ++;
     }
     k=0;
