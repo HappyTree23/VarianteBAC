@@ -19,5 +19,6 @@ int main() {
         }
     }
     cout << s;
+    fin.close();
     return 0;
 }
